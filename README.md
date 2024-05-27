@@ -2,7 +2,16 @@
 
 ![super store pic](https://github.com/confilovydovy/Global-Superstore/assets/7013375/bb198139-84ec-4035-92ac-a70a3d063c3c)
 
-### About Project
+### Table of Contents
+- [ABOUT PROJECT](#about-project)
+- [EXPLANATORY DATA ANALYSIS ](#explanatory-data-analysis)
+- [DATA CLEANING AND TRANSFORMATION](#data-cleaning-and-analysis)
+- [VISUALISATION AND ANALYSIS](#visualisation-and-analysis)
+- [INSIGHTS](#insights)
+- [SQL ANALYSIS](#sql-analysis)
+- [RECOMMENDATIONS](#recommendations)
+
+### ABOUT PROJECT
 Global Superstore is a global online retailer based in New York, boasting a broad product catalog and aiming to be a one-stop-shop for its customers.
 Global The superstore's clientele, hailing from 147 different countries, can browse through an endless offering with more than 10,000 products. This large selection comprises three main categories: office supplies (e.g., staples), furniture (e.g., chairs), and technology (e.g., smartphones). You are contracted as a Data Analyst to help Global Superstore analyze and draw out meaningful insight from the Superstore dataset which would aid management in making informed decisions to improve performance and profitability. Using skills learnt from the data Bootcamp, apply your knowledge of:
 
@@ -52,7 +61,7 @@ I went through my data to check for any null values which was corrected in my po
 ![DATA CLEANING SQL](https://github.com/confilovydovy/Global-Superstore/assets/7013375/24e14720-2369-4a39-a62d-f661facb6be2)
 
 
-### VISUALISATOIN AND ANALYSIS
+### VISUALISATION AND ANALYSIS
 In this Analysis I used SQL and Power BI tools  for Question 1,2,4 and 5 while in Question 3,6 and 7 I used just the Power BI tool. Meanwhile all visualization was made with the Power BI Tool which is going to be revealed later in this report.
 Meanwhile before my visualization I import my solved SQL queries to Power BI by clicking on get data on my Power BI home page, then I choose SQL server which took me to another step, which is to input my server name, database name and at the advance box where I Input my SQL Statement that was used for my visuals as shown below.
 Note: This above process was repeated for all the SQL statement queries used for my visuals.

@@ -232,9 +232,9 @@ Question 7) Who are the most valuable customers and what do they purchase?
 
 The most valuable customers as shown in the image are:
 
-- Tamara Chand, who has generated a total profit of 8.4K, product purchased is Camon image class 2200 Advanced copier.
+- Tamara Chand, who has generated a total profit of 8.4K, product purchased is Canon image class 2200 Advanced copier.
   
-- Raymond Buch, who has generated a total profit of 6.7KP,product purchased is Camon image class 2200 Advanced copier.
+- Raymond Buch, who has generated a total profit of 6.7KP,product purchased is Canon image class 2200 Advanced copier.
 
 
 ### SQL ANALYSIS

@@ -1,5 +1,7 @@
 # Global-Superstore
 
+![super store pic](https://github.com/confilovydovy/Global-Superstore/assets/7013375/bb198139-84ec-4035-92ac-a70a3d063c3c)
+
 ### About Project
 Global Superstore is a global online retailer based in New York, boasting a broad product catalog and aiming to be a one-stop-shop for its customers.
 Global The superstore's clientele, hailing from 147 different countries, can browse through an endless offering with more than 10,000 products. This large selection comprises three main categories: office supplies (e.g., staples), furniture (e.g., chairs), and technology (e.g., smartphones). You are contracted as a Data Analyst to help Global Superstore analyze and draw out meaningful insight from the Superstore dataset which would aid management in making informed decisions to improve performance and profitability. Using skills learnt from the data Bootcamp, apply your knowledge of:
@@ -45,12 +47,23 @@ Find the link to the Global superstore dataset in below: [Download here](https:/
   
 ### DATA CLEANING AND TRANSFORMATION:
 This dataset contain 3 Tables which are Order, People, and Return and each of this table has their own fields to make a table, I upload my data into the power query editor to clean, prepare, and transform my data to make it neat and structured. The tools used for cleaning are SQL and Power BI.
-I went through my data to check for any null values which was corrected in my power quarry and SQL as seen below.
+I went through my data to check for any null values which was corrected in my power query and SQL as seen below.
+
+![DATA CLEANING SQL](https://github.com/confilovydovy/Global-Superstore/assets/7013375/24e14720-2369-4a39-a62d-f661facb6be2)
+
 
 ### VISUALISATOIN AND ANALYSIS
 In this Analysis I used SQL and Power BI tools  for Question 1,2,4 and 5 while in Question 3,6 and 7 I used just the Power BI tool. Meanwhile all visualization was made with the Power BI Tool which is going to be revealed later in this report.
 Meanwhile before my visualization I import my solved SQL queries to Power BI by clicking on get data on my Power BI home page, then I choose SQL server which took me to another step, which is to input my server name, database name and at the advance box where I Input my SQL Statement that was used for my visuals as shown below.
 Note: This above process was repeated for all the SQL statement queries used for my visuals.
+
+![get dat](https://github.com/confilovydovy/Global-Superstore/assets/7013375/5abda1d2-c72e-4625-ac5e-c8258ebe57c0)
+
+
+![sql database](https://github.com/confilovydovy/Global-Superstore/assets/7013375/cfde9cba-acbd-4090-aff7-cc02b8703c67)
+
+![Global Superstore Analysis 1](https://github.com/confilovydovy/Global-Superstore/assets/7013375/f52820c4-17c8-4f35-99fe-ce1b117dc1cc)
+
 
 ### INSIGHTS
 
@@ -131,6 +144,9 @@ GROUP BY country
 ORDER BY total_profit DES
 ```
 
+![1](https://github.com/confilovydovy/Global-Superstore/assets/7013375/d2131a33-88f2-4164-93e0-8ac19bbe093c)
+
+
  - 1.b) For each of these three countries, find the three products with the highest total profit. Specifically,
  - what are the products names and the total profit for each product?
 ``` sql
@@ -158,6 +174,9 @@ WHERE rank <= 3
 ORDER BY country, rank;
 ```
 
+![1B](https://github.com/confilovydovy/Global-Superstore/assets/7013375/48208648-f4bd-472d-811c-1934ee01f22f)
+
+
 - Question 2.) Identify the 3 subcategories with the highest average shipping cost in the United States.
 
 ```sql
@@ -168,6 +187,9 @@ GROUP BY sub_category
 ORDER BY avg_shipping_cost DESC;
 ```
 
+![2](https://github.com/confilovydovy/Global-Superstore/assets/7013375/a5eee16f-2d4c-4ca7-8e6f-cc0531e302e4)
+
+
 - Question 4a) Identify the product subcategory that is the least profitable in Southeast Asia.
 
 ```sql
@@ -177,6 +199,9 @@ WHERE Region IN ('Southeast Asia')
 GROUP BY sub_category
 ORDER BY total_profit ASC;
 ```
+
+![4](https://github.com/confilovydovy/Global-Superstore/assets/7013375/5afd2f39-48db-448d-8dcd-f4a8dea8983c)
+
 
 - b) Is there a specific country in Southeast Asia where Global Superstore should stop offering the least profitable subcategory?
 
@@ -196,6 +221,9 @@ GROUP BY country
 ORDER BY total_profit ASC;
 ```
 
+![4B](https://github.com/confilovydovy/Global-Superstore/assets/7013375/79baeab2-5a82-4603-9878-5bed5d9fa83f)
+
+
 Question 6) Which product subcategory has the highest average profit in Australia?
 
 •The product subcategory with the highest average profit in Australia is "Appliances" with an average profit of 139.
@@ -204,10 +232,10 @@ Question 7) Who are the most valuable customers and what do they purchase?
 
 The most valuable customers as shown in the image are:
 
-- Tamara Chand, who has generated a total profit of 8.4K.
+- Tamara Chand, who has generated a total profit of 8.4K, product purchased is Camon image class 2200 Advanced copier.
   
-- Raymond Buch, who has generated a total profit of 6.7K.
-The specific products they purchase are not detailed in the image for these customers.
+- Raymond Buch, who has generated a total profit of 6.7KP,product purchased is Camon image class 2200 Advanced copier.
+
 
 ### SQL ANALYSIS
  - Question 5a) Which city is the least profitable (in terms of average profit) in the United States? For this analysis, discard the cities with less than 10 orders.
@@ -227,6 +255,9 @@ WHERE o.country = 'United States'
 GROUP BY o.city
 ORDER BY avg_profit ASC;
 ```
+
+![5](https://github.com/confilovydovy/Global-Superstore/assets/7013375/9917acde-1284-4610-9369-6c94bf0ab6c2)
+
 
 - b) Why is this citys average profit so low? Investigate shipping costs and average discounts.
 
@@ -249,6 +280,10 @@ ORDER BY AVG(o.profit) ASC
 )
 GROUP BY city;
 ```
+
+![5B](https://github.com/confilovydovy/Global-Superstore/assets/7013375/4ed54afa-7267-4185-8175-9ad716a4895b)
+
+
 ### RECOMMENDATIONS
 
 1.Continuously monitor and analyze sales data to make informed decisions about product offerings, pricing, and marketing strategies.
